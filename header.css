@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.header .logo{
+    flex-grow: 1;
+}
+
+.header .logo img{
+    padding-left: 16px;
+    width: 123px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.newGroup a{
+    color: #00a2c7!important;
+    font-weight: bold;
+    border-right: 1px solid #aaa;
+}
+.menu li a{
+    font-family: "Source Code Pro",sans-serif;
+    font-size: 16px;
+    color: #aaa;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.menu li:hover a{
+    color: #00a2c7;
+}
+
