@@ -1,0 +1,26 @@
+.slideshow {
+    height: 460px;
+    background: url("https://2h7qju2c3qvcc3s86ekn8n0-wpengine.netdna-ssl.com/baltimore/wp-content/uploads/sites/3/2017/06/IMG_3163.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ddd;
+    font-family: "Source Code Pro",sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.slideshow h1{
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 0px;
+}
+
+.slideshow .btnSignup{
+    border-radius: 5px;
+    padding: 14px 25px;
+    background-color: chocolate;
+}
